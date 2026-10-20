@@ -1,0 +1,113 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Nguyễn Văn An",
+      "email": "an@gmail.com",
+      "password": "$2a$10$pDEa13HpLHUEnHXVKrzu4.wsRemAMTMCSW2j96iRhx2EhjKk/v0P2"
+    },
+    {
+      "id": 2,
+      "name": "Trần Thị Bình",
+      "email": "binh@gmail.com",
+      "password": "$2b$10$WcSj6kU.gfZvcFQXryE.0O6eWiEo4qeOBksH77vyaPUbd/LGGIoUa"
+    },
+    {
+      "id": 3,
+      "name": "Lê Minh Châu",
+      "email": "chau@gmail.com",
+      "password": "$2b$10$WcSj6kU.gfZvcFQXryE.0O6eWiEo4qeOBksH77vyaPUbd/LGGIoUa"
+    },
+    {
+      "email": "hoainhodo952@gmail.com",
+      "password": "$2a$10$DrQyJmC8yUW68Se5uzp2q.Su1q6PU8aiDPSuvkpTQc7KQxwBkO1HW",
+      "name": "Do Hoai Nho",
+      "id": 4
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "Dế Mèn Phiêu Lưu Ký",
+      "author": "Tô Hoài",
+      "category": "Văn học",
+      "price": 45000,
+      "image": "https://picsum.photos/seed/book1/300/450",
+      "description": "Dế Mèn Phiêu Lưu Ký của Tô Hoài, một cuốn sách thuộc thể loại văn học được nhiều bạn đọc yêu thích."
+    },
+    {
+      "id": 2,
+      "title": "Nhà Giả Kim",
+      "author": "Paulo Coelho",
+      "category": "Kỹ năng sống",
+      "price": 79000,
+      "image": "https://picsum.photos/seed/book2/300/450",
+      "description": "Cuốn tiểu thuyết huyền thoại của Paulo Coelho truyền cảm hứng cho hàng triệu độc giả trên hành trình theo đuổi ước mơ."
+    },
+    {
+      "id": 3,
+      "title": "Đắc Nhân Tâm",
+      "author": "Dale Carnegie",
+      "category": "Kỹ năng sống",
+      "price": 86000,
+      "image": "https://picsum.photos/seed/book3/300/450",
+      "description": "Quyển sách nổi tiếng nhất thế giới về nghệ thuật thu phục lòng người và giao tiếp ứng xử."
+    },
+    {
+      "id": 4,
+      "title": "Sapiens: Lược Sử Loài Người",
+      "author": "Yuval Noah Harari",
+      "category": "Khoa học - Lịch sử",
+      "price": 185000,
+      "image": "https://picsum.photos/seed/book4/300/450",
+      "description": "Khám phá hành trình tiến hóa của loài người từ những vượn người hoang dã cho đến các bậc thầy của thế giới hiện đại."
+    },
+    {
+      "id": 5,
+      "title": "Mắt Biếc",
+      "author": "Nguyễn Nhật Ánh",
+      "category": "Văn học",
+      "price": 95000,
+      "image": "https://picsum.photos/seed/book5/300/450",
+      "description": "Câu chuyện tình yêu đơn phương đầy day dứt và đẹp đẽ của Ngạn dành cho cô bạn từ thuở nhỏ Hà Măng."
+    },
+    {
+      "id": 6,
+      "title": "Tư Duy Nhanh Và Chậm",
+      "author": "Daniel Kahneman",
+      "category": "Kinh tế",
+      "price": 169000,
+      "image": "https://picsum.photos/seed/book6/300/450",
+      "description": "Cuốn sách thay đổi cách bạn suy nghĩ, đưa ra quyết định trong kinh doanh cũng như đời sống hàng ngày."
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "bookId": 1,
+      "userId": 1,
+      "userName": "Nguyễn Văn An",
+      "rating": 2,
+      "comment": "Hơi khó đọc với mình.",
+      "createdAt": "2026-10-03T09:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "bookId": 1,
+      "userId": 2,
+      "userName": "Trần Thị Bình",
+      "rating": 5,
+      "comment": "Tuyệt vời, mình đọc 2 lần rồi.",
+      "createdAt": "2026-10-02T09:00:00.000Z"
+    },
+    {
+      "bookId": 1,
+      "userId": 1,
+      "userName": "Nguyễn Văn An",
+      "rating": 5,
+      "comment": "sach kho hieu qua di",
+      "createdAt": "2026-10-20T09:57:29.749Z",
+      "id": 3
+    }
+  ]
+}
